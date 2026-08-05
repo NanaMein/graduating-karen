@@ -76,3 +76,34 @@ Try completing these tasks without asking someone else to do them for you:
 * Search for one printer error code online and understand what caused it.
 
 If you can complete these tasks confidently, you're already ahead of many fresh graduates. More importantly, you're beginning to think like someone who can solve problems instead of simply following instructions.
+
+
+# 📚 Snippet [2]: Mastering CMD for Quick Network Troubleshooting
+
+## 🎯 Why learn this?
+Karen, when you first step into an IT support or networking role, it is totally normal to feel overwhelmed by physical infrastructure, switches, and building-wide connections you've never touched before. You might feel like you need complex, expensive software to figure out what's going on. But the truth is, one of the most powerful and reliable diagnostic tools you'll ever use is already built right into Windows: the Command Prompt (`cmd`). Learning your way around basic command-line tools lets you see behind the curtain, demystify network problems, and solve issues quickly—even when you're just starting out and don't have full admin rights.
+
+---
+
+## 🌟 Nana's Experience [Click for full story](./experiences/cmd_terminal_exp.md)
+
+---
+
+## 🛠 Things You'll Probably Encounter
+* Checking local IP addresses, subnet masks, and default gateways on a workstation (`ipconfig`).
+* Testing whether a specific computer, printer, or camera is reachable on the network (`ping`).
+* Verifying if a network drop or cable is active by checking link states and connectivity.
+* Assisting users whose workstations or office printers have suddenly lost connection.
+* Reading text-based outputs to quickly separate local configuration errors from broader network outages.
+
+---
+
+## 💡 Tips from Experience
+* **You don't need root/admin rights for everything:** Many basic diagnostic commands (`ipconfig`, `ping`) can be run standard, allowing you to gather crucial clues without breaking anything.
+* **Always start close to home:** When troubleshooting a connection issue, always check the local machine's IP configuration first before assuming the switch, router, or server is broken.
+* **Be specific when you escalate:** When handing an issue off to your supervisor, don't just say "the printer is broken." Use `cmd` to gather facts—like *"Printer X isn't responding to pings"*—so your team can solve it twice as fast.
+
+---
+
+## 🔗 References
+* [[Top CMD Commands useful as junior Net Admin and IT Support]](./tutorials/cmd_cheatsheet.md)
