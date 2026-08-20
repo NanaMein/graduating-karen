@@ -2,6 +2,8 @@
 
 An open-source guide for Karen (and her classmates) as fresh graduates exploring their first careers. This repository shares real workplace experiences, practical guides, curated roadmaps, and quick cheatsheets that aren't usually taught in school.
 
+Optional: if you want to use OpenCode on Windows, see [OpenCode on Windows](./OPENCODE_WINDOWS.md).
+
 ---
 
 # 👋 How this works
